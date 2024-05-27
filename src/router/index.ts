@@ -177,6 +177,15 @@ export const constantRoutes: RouteRecordRaw[] = [
           title: "SimpleTable",
           keepAlive: true
         }
+      },
+      {
+        path: "flex-demo",
+        component: () => import("@/views/example/flex-demo/index.vue"),
+        name: "FlexDemo",
+        meta: {
+          title: "FlexDemo",
+          keepAlive: true
+        }
       }
     ]
   },
