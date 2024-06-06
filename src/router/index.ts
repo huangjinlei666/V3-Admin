@@ -186,6 +186,15 @@ export const constantRoutes: RouteRecordRaw[] = [
           title: "FlexDemo",
           keepAlive: true
         }
+      },
+      {
+        path: "todo-list",
+        component: () => import("@/views/example/todo-list/index.vue"),
+        name: "TodoList",
+        meta: {
+          title: "TodoList",
+          keepAlive: true
+        }
       }
     ]
   },
